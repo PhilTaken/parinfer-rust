@@ -1,3 +1,3 @@
-self: super: {
-  parinfer-rust = super.callPackage ./derivation.nix {};
+final: prev: {
+  parinfer-rust = prev.callPackage ./derivation.nix {};
 }
